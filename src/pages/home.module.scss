@@ -1,1 +1,38 @@
 // TODO
+
+.homeContainer {
+  margin: 0 160px;
+  padding: 0 210px;
+  
+  article {
+    margin: 48px 0;
+
+    h1 {
+      font-size: 28px;
+      margin-bottom: 8px;
+    }
+
+    p {
+      color: var(--light-gray);
+      font-size: 18px;
+      margin-bottom: 14px;
+    }
+
+    .infoContainer {
+      color: var(--gray);
+      display: flex;
+      gap: 24px;
+
+      section {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+
+        svg {
+          font-size: 1.25em;
+        }
+      }
+
+    }
+  }
+}
