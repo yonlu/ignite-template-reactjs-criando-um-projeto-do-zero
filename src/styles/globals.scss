@@ -5,3 +5,32 @@
 }
 
 // TODO
+:root {
+  --black: #1A1D23;
+  --white: #F8F8F8;
+  --light-gray: #D7D7D7;
+  --gray: #BBBBBB;
+  --pink: #FF57B2;
+}
+
+body {
+  background: var(--black);
+  color: var(--white);
+}
+
+body,
+input,
+textarea,
+select,
+button {
+  font: 400 1em 'Inter', sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
