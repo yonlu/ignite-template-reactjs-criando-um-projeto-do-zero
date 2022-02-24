@@ -32,7 +32,20 @@
           font-size: 1.25em;
         }
       }
-
     }
+  }
+
+  article:last-of-type {
+    margin-bottom: 64px;
+  }
+
+  button {
+    background: none;
+    border: none;
+    color: var(--pink);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
   }
 }

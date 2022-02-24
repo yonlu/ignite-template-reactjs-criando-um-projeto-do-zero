@@ -1,1 +1,51 @@
 // TODO
+ 
+.postContainer {
+  margin: 81px 0;
+  padding: 0 139px;
+
+  .infoContainer {
+    color: var(--gray);
+    display: flex;
+    gap: 24px;
+    font-size: 14px;
+
+    section {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-top: 24px;
+
+      svg {
+        font-size: 1.25em;
+      }
+    }
+  }
+
+  h1 {
+    font-size: 48px;
+  } 
+
+
+  .postContents {
+    margin-top: 64px;
+    line-height: 25.2px;
+
+    h2 {
+      font-size: 36px;
+      line-height: 50.4px;
+    }
+
+    p {
+      color: var(--gray);
+      font-size: 18px;
+      text-align: justify;
+      margin-top: 40px;
+    }
+
+    h2:nth-child(n+1) {
+      margin: 64px 0;
+    }
+  }
+
+}
